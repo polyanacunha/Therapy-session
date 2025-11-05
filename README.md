@@ -34,9 +34,11 @@ Path aliases are configured:
 1. `npm i`
 2. Create `.env` (or `.env.local`) with:
    ```
-   VITE_SUPABASE_URL=<your-url>
+   VITE_SUPABASE_URL=https://hsidzcrvzmixgwszxngq.supabase.co
    VITE_SUPABASE_ANON_KEY=<your-anon-key>
    ```
+   Note: “Request temporary env values privately for local runs(you will need the VITE_SUPABASE_ANON_KEY)” or “Create your own Supabase project and run the provided SQL.”
+   
 3. Create the `session_notes` table in Supabase (see Database section)
 4. Deploy the Edge Function (optional but recommended):
    ```
