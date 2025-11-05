@@ -1,7 +1,7 @@
-/// <reference types="vitest" />
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import NoteForm from '../NoteForm'
+import { vi } from 'vitest'
 
 describe('NoteForm', () => {
   test('submits entered values and clears fields', async () => {
