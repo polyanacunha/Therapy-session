@@ -30,6 +30,10 @@ pnpm-debug.log*
 
 # Supabase CLI temp
 supabase/.temp/
+supabase/.branches/
+
+# Local npm config (avoid committing company proxy/registry)
+.npmrc
 # Logs
 logs
 *.log
